@@ -4,6 +4,8 @@ import { AppService } from './app.service';
 import { AuthModule } from './auth/auth.module';
 import { NotesModule } from './notes/notes.module';
 
+
+// Módulo principal da aplicação
 @Module({
   imports: [AuthModule, NotesModule],
   controllers: [AppController],
